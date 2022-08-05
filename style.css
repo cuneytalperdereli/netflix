@@ -1,0 +1,165 @@
+body {
+  background-image: url(./images/background_image.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.header {
+  font-size: 35px;
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.header span {
+  color: red;
+}
+
+.container {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background-color: rgba(0, 0, 0, 0.5);
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.form {
+  background-color: black;
+  color: white;
+
+  padding: 45px;
+}
+
+.name {
+  display: flex;
+  flex-direction: column;
+}
+
+#name1 {
+  border: 2px solid red;
+  width: 28rem;
+  padding: 15px;
+  margin-bottom: 10px;
+}
+
+#age1 {
+  width: 28rem;
+  padding: 15px;
+  margin-bottom: 10px;
+}
+
+.mail {
+  display: flex;
+  flex-direction: column;
+}
+#mail1 {
+  width: 28rem;
+  padding: 15px;
+  margin-bottom: 10px;
+}
+
+#contenttype {
+  font-size: 16px;
+  margin-bottom: 2px;
+}
+#content1 {
+  padding: 15px;
+  width: 30rem;
+}
+
+.movie {
+  margin-bottom: 8px;
+}
+
+#moviet {
+  font-size: 16px;
+  margin-bottom: 8px;
+}
+
+.movie1  {
+  display: flex;
+  width: 100px;
+  justify-content: space-between;
+  margin-bottom: 5px;
+
+}
+.movie2 {
+  display: flex;
+  justify-content: space-between;
+  width: 100px;
+  margin-bottom: 5px;
+
+}
+.movie3 {
+  display: flex;
+  justify-content: space-between;
+  width: 100px;
+}
+
+#genderp {
+  font-size: 16px;
+  margin-bottom: 8px;
+}
+
+.male {
+  display: flex;
+  width: 100px;
+  justify-content: space-between;
+  margin-bottom: 5px;
+}
+
+.female {
+  display: flex;
+  width: 100px;
+  justify-content: space-between;
+  margin-bottom: 5px;
+}
+
+.other {
+  display: flex;
+  width: 100px;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.textarea {
+  display: flex;
+  flex-direction: column;
+}
+
+.textarea label {
+  margin-bottom: 10px;
+}
+
+#feedback {
+  border-radius: 10px;
+  padding: 10px 10px;
+}
+
+.btn {
+  margin-top: 15px;
+  text-align: center;
+
+
+}
+
+.btn button {
+  border-radius: 30px;
+  width: 150px;
+  height: 50px;
+  background-color: red;
+  color: white;
+}
+
+.btn button:hover {
+  background-color: aquamarine;
+  text-shadow: 5px;
+}
+
+
+
+
+
+
